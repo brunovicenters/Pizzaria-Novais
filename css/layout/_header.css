@@ -31,3 +31,18 @@ header > img {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
 }
+
+@media (max-width: 600px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_msg {
+        padding: 16px;
+    }
+    .div_oval {
+        width: 280px;
+        height: 280px;
+        top: 60%;
+    }
+}
