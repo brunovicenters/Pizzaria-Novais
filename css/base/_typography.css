@@ -16,3 +16,14 @@
     font-weight: 700;
     margin-bottom: 16px;
 }
+
+.footer-text {
+    font-family: var(--font-noto-sans);
+    font-size: 14px;
+    color: var(--cor-branca);
+    line-height: 20px;
+}
+
+.text-copy {
+    font-weight: 700;
+}

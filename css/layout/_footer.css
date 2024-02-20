@@ -1,0 +1,38 @@
+footer {
+    background-color: #da582f;
+    margin: 0 10% 0;
+    padding: 1% 1%;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sociais {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.sociais > a {
+    width: 30%;
+    cursor: pointer;
+}
+
+.sociais > a > img {
+    width: 100%;
+}
+
+.footer-text {
+    flex: 3 1 auto;
+    align-self: self-end;
+    text-align: center;
+}
+
+.footer_logo {
+    flex: 1 1;
+    width: 100px;
+}
