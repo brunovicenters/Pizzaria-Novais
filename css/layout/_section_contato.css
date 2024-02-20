@@ -22,3 +22,10 @@
     align-items: end;
     justify-content: center;
 }
+
+@media (max-width: 600px){
+    .contato {
+        margin: 0% 10% 5%;
+        padding: 5%;
+    }
+}

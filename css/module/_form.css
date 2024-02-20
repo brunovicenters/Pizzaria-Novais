@@ -41,3 +41,21 @@
     padding: 10px;
     font: 14px var(--font-noto-sans);
 }
+
+@media (max-width: 600px){
+    .body {
+        flex-direction: column;
+    }
+
+    .body > .input-group {
+        width: 100%;
+    }
+    
+    .body > textarea {
+        width: 94%;
+    }
+
+    .input-group {
+        gap: 10px
+    }
+}
