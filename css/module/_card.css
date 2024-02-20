@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .card_verde_menta {
