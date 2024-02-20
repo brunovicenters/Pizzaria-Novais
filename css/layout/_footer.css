@@ -23,16 +23,38 @@ footer {
 }
 
 .sociais > a > img {
-    width: 100%;
+    width: 80%;
+}
+
+.footer-text-container {
+    flex: 3 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .footer-text {
-    flex: 3 1 auto;
     align-self: self-end;
     text-align: center;
 }
 
 .footer_logo {
-    flex: 1 1;
     width: 100px;
+}
+
+@media (max-width: 600px){
+    footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-text {
+        width: 50%;
+        align-self: self-start;
+        font-size: 10px;
+    }
+
+    .footer_logo {
+        width: 100px;
+    }
 }
