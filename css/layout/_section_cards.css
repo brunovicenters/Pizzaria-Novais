@@ -2,6 +2,7 @@
     display: flex;
     gap: 36px;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .img_pizza {
