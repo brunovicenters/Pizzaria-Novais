@@ -7,3 +7,5 @@
 @import "base/_typography.css";
 @import "module/_button.css";
 @import "layout/_header.css";
+@import "module/_card.css";
+@import "layout/_section_cards.css"
